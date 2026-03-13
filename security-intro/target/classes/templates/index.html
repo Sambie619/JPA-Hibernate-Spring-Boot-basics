@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Security Intro Home</title>
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"/>
+</head>
+<body class="container mt-4">
+<h2>Security Intro Home</h2>
+
+<p>This is a public home page.</p>
+
+<ul>
+    <li><a th:href="@{/public/info}">Public Info</a></li>
+    <li><a th:href="@{/user/dashboard}">User Dashboard (USER role)</a></li>
+    <li><a th:href="@{/admin/dashboard}">Admin Dashboard (ADMIN role)</a></li>
+    <li><a th:href="@{/login}">Login</a></li>
+</ul>
+</body>
+</html>
