@@ -1,0 +1,114 @@
+# Compiled class files
+*.class
+target/
+**/target/
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+
+# Maven
+.m2/
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# STS/Eclipse
+.settings/
+.project
+.classpath
+bin/
+*.launch
+*.pydevproject
+.sts4-cache/
+
+# IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Logs
+*.log
+logs/
+spring.log
+lombok.log
+
+# Databases
+*.db
+*.h2.db
+*.mv.db
+*.trace.db
+data/
+*.sqlite
+*.sql
+
+# Application data
+application.properties
+application.yml
+application-*.properties
+application-*.yml
+application-dev.properties
+application-prod.properties
+
+# Environment-specific
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE workspace files
+.vscode/settings.json
+!.vscode/extensions.json
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# MySQL Workbench
+wb.*.db
+wb.*.dat
+wb.*.ini
+wb.*.sql
+wb.*.mwb
+
+# Postman collections (keep these!)
+# *.postman_collection.json  ← COMMIT THESE
+
+# Docker
+Dockerfile.user
+.dockerignore
+
+# Helm
+charts/
+
+# Kubernetes
+k8s/
+*.k8s.yml
